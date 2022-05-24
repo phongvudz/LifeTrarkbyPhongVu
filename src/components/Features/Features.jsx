@@ -184,7 +184,7 @@ const Features = () => {
           <iframe
             class=" w-full  mx-auto lg:max-w-2xl md:max-w-xl aspect-video md:aspect-square"
 
-            src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+            src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="videomusic"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen>
