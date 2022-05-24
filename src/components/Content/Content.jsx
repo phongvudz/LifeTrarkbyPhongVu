@@ -1,16 +1,16 @@
 const Content = () => {
   return (
     <div>
-      <section className="bg-[url('https://demo.themefisher.com/lifetrakr/images/backgrounds/banner-bg.jpg')] bg-cover  w-full pt-44 pb-32 px-[15px]">
-        <div>
-          <div className="text-white">
+      <section className="bg-[url('https://demo.themefisher.com/lifetrakr/images/backgrounds/banner-bg.jpg')] bg-cover  w-full pt-44 pb-32 px-[15px] md:px-12  ">
+        <div className="md:flex md:gap-8 xl:max-w-6xl mx-auto 2xl:max-w-7xl">
+          <div className="text-white md:max-w-xl md:mx-auto  ">
             <h1 className="text-6xl leading-relaxed tracking-wide font-semibold mb-8">
               AMAZING APP BEST FOR BUSINESS
             </h1>
             <p className="text-xl mb-24">
               LET YOU TRACK EVERYTHING IN YOUR LIFE WITH A SIMPLE WAY
             </p>
-            <div className="flex flex-col space-y-6 mb-4">
+            <div className="flex flex-col gap-8 mb-4  justify-center md:mb-0 md:flex md:flex-row ">
               <button className="">
                 {" "}
                 <img
@@ -35,15 +35,15 @@ const Content = () => {
           </div>
         </div>
       </section>
-      <section className="px-[15px] py-32">
-        <div>
-          <div>
+      <section className="px-[15px] py-32 md:px-10 bg-[url('https://demo.themefisher.com/lifetrakr/images/backgrounds/elipse-bg.png')] bg-cover">
+        <div className="md:flex items-center justify-center md:gap-10 mx-auto xl:max-w-5xl">
+          <div className="md:max-w-xl md:mx-auto">
             <img
               src="https://demo.themefisher.com/lifetrakr/images/phones/iphone-feature.png"
               alt="mobile2"
             />
           </div>
-          <div>
+          <div className="md:max-w-md md:mx-auto">
          {/*Card1*/}
             <div className="flex flex-row  items-start gap-4 border-transparent shadow-2xl px-[20px] py-[30px] mb-8">
               <svg className="" 

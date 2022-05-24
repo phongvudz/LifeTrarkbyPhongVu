@@ -1,9 +1,9 @@
 const Features = () => {
   return (
     <div>
-      <div className="px-[15px] pb-32">
+      <div className="px-[15px] py-16 mx-auto xl:max-w-6xl">
         {/*Features*/}
-        <div className="text-center max-w-xs mx-auto">
+        <div className="text-center max-w-xs mx-auto md:max-w-xl">
           <h1 className="text-4xl font-light mb-8">App Features</h1>
           <p className="text-gray-500 mb-8">
             Demoralized by the charms of pleasure of the moment, so blinded by
@@ -11,10 +11,10 @@ const Features = () => {
             praising
           </p>
         </div>
-        <div>
+        <div className="md:flex md:justify-center md:items-center bg-[url('https://demo.themefisher.com/lifetrakr/images/backgrounds/elipse-bg-three.png')] bg-cover">
           {/* Container 1*/}
-          <div className=" flex flex-col space-y-12">
-            <div className="flex flex-col justify-center items-center text-center">
+          <div className=" flex flex-col space-y-12 ">
+            <div className="flex flex-col justify-center items-center text-center lg:text-left lg:items-start">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 class="h-14 w-14 mb-7"
@@ -39,7 +39,7 @@ const Features = () => {
                 </p>
               </div>
             </div>
-            <div className="flex flex-col justify-center items-center text-center">
+            <div className="flex flex-col justify-center items-center text-center lg:text-left lg:items-start">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 class="h-14 w-14 mb-7"
@@ -126,7 +126,7 @@ const Features = () => {
           </div>
           {/* Container 3*/}
           <div className=" flex flex-col space-y-12 mt-8">
-            <div className="flex flex-col justify-center items-center text-center ">
+            <div className="flex flex-col justify-center items-center text-center lg:text-right lg:items-end ">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 class="h-14 w-14 mb-7"
@@ -151,7 +151,7 @@ const Features = () => {
                 </p>
               </div>
             </div>
-            <div className="flex flex-col justify-center items-center text-center">
+            <div className="flex flex-col justify-center items-center text-center lg:text-right lg:items-end">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 class="h-14 w-14 mb-7"
@@ -182,7 +182,7 @@ const Features = () => {
       </div>
       <div className="bg-softPurple px-[15px] py-16">
           <iframe
-            class=" w-full h-auto mx-auto  aspect-video md:aspect-square"
+            class=" w-full  mx-auto lg:max-w-2xl md:max-w-xl aspect-video md:aspect-square"
 
             src="https://www.youtube.com/embed/dQw4w9WgXcQ"
             frameborder="0"
@@ -194,15 +194,15 @@ const Features = () => {
       <div className="px-[15px] py-20">
         {/*Content*/}
         <div className="text-center">
-          <h1>Choose Your Subscription Plan</h1>
-          <p>Demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee idea of denouncing pleasure and praising</p>
+          <h1 className="text-4xl mb-4">Choose Your Subscription Plan</h1>
+          <p className="text-gray-600 md:max-w-xl mx-auto mb-12">Demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee idea of denouncing pleasure and praising</p>
         </div>
         {/*Card*/}
-        <div>
+        <div className="md:flex md:gap-8 justify-center ">
           {/*Card1*/}
-          <div className="text-center border-2 border-transparent shadow-xl py-[50px] mb-[80px] space-y-4">
+          <div className="text-center border-2 border-transparent shadow-xl py-[50px] mb-[80px] space-y-4 md:px-12 lg:px-24">
               <h1 className="text-gray-900 font-bold mb-8 text-xl">FREE</h1>
-              <h1><span className="text-softBlue text-4xl font-bold">$0</span>/month</h1>
+              <h1><span className=" text-softPurple text-4xl font-bold">$0</span>/month</h1>
               <p className="text-gray-400">Android App</p>
               <p className="text-gray-400">One time payment</p>
               <p className="text-gray-400">Build & Publish</p>
@@ -210,7 +210,7 @@ const Features = () => {
               <button className="uppercase text-white bg-softPurple px-10 py-4 rounded-full">start now</button>
           </div>
           {/*Card2*/}
-          <div className="text-center border-2 border-transparent shadow-xl py-[50px] mb-[80px] space-y-4">
+          <div className="text-center border-2 border-transparent shadow-xl py-[50px] mb-[80px] space-y-4 md:px-12 lg:px-24">
               <h1 className="text-gray-900 font-bold mb-8 text-xl">BASIC</h1>
               <h1><span className="text-red-400 text-4xl font-bold">$19/</span>/month</h1>
               <p className="text-gray-400">Android App</p>
@@ -220,7 +220,7 @@ const Features = () => {
               <button className="uppercase text-white bg-red-400 px-10 py-4 rounded-full">start now</button>
           </div>
           {/*Card3*/}
-          <div className="text-center border-2 border-transparent shadow-xl py-[50px] mb-[80px] space-y-4">
+          <div className="text-center border-2 border-transparent shadow-xl py-[50px] mb-[80px] space-y-4 md:px-12 lg:px-24" >
               <h1 className="text-gray-900 font-bold mb-8 text-xl">ADVANCE</h1>
               <h1><span className="text-softPurple text-4xl font-bold">$99</span>/month</h1>
               <p className="text-gray-400">Android App</p>
@@ -232,18 +232,18 @@ const Features = () => {
         </div>
       </div>
       {/* Free Download Now*/}
-      <div className="bg-softPurple px-[15px] py-32">
-            <div className="hidden md:block absolute">
+      <div className="bg-softPurple px-[15px] py-32 relative">
+            <div className="hidden md:block absolute -top-16 left-0 xl:left-64 ">
               <img src="https://demo.themefisher.com/lifetrakr/images/phones/iphone-chat.png" alt="mobile3"/>
           </div>
-          <div className="text-white md:max-w-lg md:ml-auto">
+          <div className="text-white md:max-w-lg md:ml-auto xl:max-w-5xl">
             <h1 className="text-5xl leading-relaxed tracking-wide font-extralight mb-8">
             Free Download Now
             </h1>
-            <p className="text-sm mb-8">
+            <p className="text-sm mb-8 xl:max-w-lg">
             Demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee idea of denouncing pleasure and praising
             </p>
-            <div className="flex flex-col space-y-6 mb-4">
+            <div className="flex flex-col space-y-6 mb-4 xl:flex xl:flex-row xl:space-y-0 xl:gap-8 xl:mb-32">
               <button className="">
                 {" "}
                 <img

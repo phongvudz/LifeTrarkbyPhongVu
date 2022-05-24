@@ -1,15 +1,15 @@
 const Footer = () => {
   return (
     <div>
-      <section className="px-[15px] py-16">
-        <div>
+      <section className="px-[15px] py-16 lg:px-8">
+        <div className="lg:flex lg:justify-center lg:gap-12 lg:items-center  mx-auto xl:max-w-6xl">
           <div>
             <img
               src="https://demo.themefisher.com/lifetrakr/images/phones/iphone-banner.png"
               alt="mobile5"
             />
           </div>
-          <div className="text-center">
+          <div className="text-center lg:text-left lg:ml-12 mx-auto lg:max-w-xl ">
             <h1 className="text-5xl text-gray-700 font-light my-8">
               Subscribe Our Newsletter
             </h1>
@@ -49,9 +49,9 @@ const Footer = () => {
           </div>
         </div>
       </section>
-      <footer className="bg-softPurple px-[15px] py-12">
-        <div>
-          <div className="text-white flex flex-col items-center text-center gap-8">
+      <footer className="bg-softPurple px-[15px] py-12 ">
+        <div className="lg:flex lg:justify-between lg:items-center xl:max-w-5xl mx-auto">
+          <div className="text-white flex flex-col items-center lg:items-start text-center  gap-8">
             <img
               src="https://demo.themefisher.com/lifetrakr/images/logo.png"
               alt="logo footer"
@@ -62,7 +62,7 @@ const Footer = () => {
             </p>
           </div>
           <div className="">
-            <div className="">
+            <div className=" lg:flex lg:flex-col lg:items-end lg:gap-8">
               {" "}
               <div className="flex items-center justify-center gap-4 text-white mt-[30px] mb-[15px]">
                 <svg

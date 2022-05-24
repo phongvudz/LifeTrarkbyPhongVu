@@ -2,38 +2,38 @@ const Section = () => {
   return (
     <div>
       <section className="bg-gray-200 ">
-        <div className="py-32 px-[15px]">
+        <div className="py-32 px-[15px] md:grid md:grid-cols-2 gap-2 lg:grid lg:grid-cols-4 mx-auto lg:max-w-5xl">
           <div className="bg-softPurple py-4 text-center text-white rounded-2xl mb-8 shadow-lg">
             <h1 className="text-4xl font-bold mb-8">29K</h1>
             <p className="mb-8">DOWNLOAD</p>
           </div>
           <div className="bg-softPurple py-4 text-center text-white rounded-2xl mb-8 shadow-lg">
-            <h1 className="text-4xl font-bold mb-8">29K</h1>
-            <p className="mb-8">DOWNLOAD</p>
+            <h1 className="text-4xl font-bold mb-8">200K</h1>
+            <p className="mb-8">ACTIVE ACCOUNT</p>
           </div>
           <div className="bg-softPurple py-4 text-center text-white rounded-2xl mb-8 shadow-lg">
-            <h1 className="text-4xl font-bold mb-8">29K</h1>
-            <p className="mb-8">DOWNLOAD</p>
+            <h1 className="text-4xl font-bold mb-8">60K</h1>
+            <p className="mb-8">HAPPY USER</p>
           </div>
-          <div className="bg-softPurple py-4 text-center text-white rounded-2xl mb-8 shadow-lg">
-            <h1 className="text-4xl font-bold mb-8">29K</h1>
+          <div className="bg-softPurple py-4 text-center text-white rounded-2xl mb-8 shadow-lg ">
+            <h1 className="text-4xl font-bold mb-8">300K+</h1>
             <p className="mb-8">DOWNLOAD</p>
           </div>
         </div>
       </section>
-      <section className="py-16 px-[15px]">
-        <div className="text-center ">
+      <section className="py-16 px-[15px] bg-[url('https://demo.themefisher.com/lifetrakr/images/backgrounds/shape-02-bg.png')]">
+        <div className="text-center max-w-xs md:max-w-lg mx-auto ">
           <h1 className="text-5xl text-gray-700 font-light mb-[25px]">
             Our Creative Team
           </h1>
-          <p className="text-gray-500 mx-auto max-w-xs">
+          <p className="text-gray-500">
             Demoralized by the charms of pleasure of the moment, so blinded by
             desire, that they cannot foresee idea of denouncing pleasure and
             praising
           </p>
         </div>
-        <div className="py-12">
-          <div className="text-center border-transparent shadow-2xl py-10 mb-8">
+        <div className="py-12 md:grid md:grid-cols-2 md:gap-2 lg:gird lg:flex lg:justify-center lg:gap-8">
+          <div className="text-center border-transparent shadow-2xl py-10 mb-8 lg:px-9 xl:px-16">
             <img
               className="rounded-full mx-auto my-4"
               src="https://demo.themefisher.com/lifetrakr/images/team/member-one.jpg"
@@ -43,8 +43,8 @@ const Section = () => {
               JOHNNY DEPP
             </h1>
             <p className="text-gray-600 mb-8">Production Designer</p>
-            <div className="h-2 w-80 bg-gray-200 relative rounded-full mx-auto mb-8">
-              <div className="h-2 w-72  rounded-l-full transition-colors bg-softPurple ">
+            <div className="h-2 w-80 lg:w-36 bg-gray-200 relative rounded-full mx-auto mb-8">
+              <div className="h-2 w-32 md:w-32 rounded-l-full transition-colors bg-softPurple ">
                 {" "}
               </div>
               <div className=" absolute -top-2.5 -right-10">
@@ -110,7 +110,7 @@ const Section = () => {
               </svg>
             </div>
           </div>
-          <div className="text-center border-transparent shadow-2xl py-10 mb-8">
+          <div className="text-center border-transparent shadow-2xl py-10 mb-8 lg:px-9 xl:px-16">
             <img
               className="rounded-full mx-auto my-4"
               src="https://demo.themefisher.com/lifetrakr/images/team/member-two.jpg"
@@ -120,8 +120,8 @@ const Section = () => {
               CRISTIN MILIOTI
             </h1>
             <p className="text-gray-600 mb-8">UX Researcher</p>
-            <div className="h-2 w-80 bg-gray-200 relative rounded-full mx-auto mb-8">
-              <div className="h-2 w-[310px]  rounded-l-full transition-colors bg-softPurple ">
+            <div className="h-2 w-80 md:w-36 bg-gray-200 relative rounded-full mx-auto mb-8">
+              <div className="h-2 w-[310px] md:w-28  rounded-l-full transition-colors bg-softPurple ">
                 {" "}
               </div>
               <div className=" absolute -top-2.5 -right-10">
@@ -187,7 +187,7 @@ const Section = () => {
               </svg>
             </div>
           </div>
-          <div className="text-center border-transparent shadow-2xl py-10 mb-8">
+          <div className="text-center border-transparent shadow-2xl py-10 mb-8 lg:px-9 xl:px-16" >
             <img
               className="rounded-full mx-auto my-4"
               src="https://demo.themefisher.com/lifetrakr/images/team/member-three.jpg"
@@ -195,8 +195,8 @@ const Section = () => {
             />
             <h1 className="text-gray-900 font-bold text-xl mb-2">JOHN DOE</h1>
             <p className="text-gray-600 mb-8">Head of Ideas</p>
-            <div className="h-2 w-80 bg-gray-200 relative rounded-full mx-auto mb-8">
-              <div className="h-2 w-[270px]  rounded-l-full transition-colors bg-softPurple ">
+            <div className="h-2 w-80 md:w-36 bg-gray-200 relative rounded-full mx-auto mb-8 ">
+              <div className="h-2 w-[270px] md:w-24  rounded-l-full transition-colors bg-softPurple ">
                 {" "}
               </div>
               <div className=" absolute -top-2.5 -right-10">
@@ -262,7 +262,7 @@ const Section = () => {
               </svg>
             </div>
           </div>
-          <div className="text-center border-transparent shadow-2xl py-10 mb-8">
+          <div className="text-center border-transparent shadow-2xl py-10 mb-8 lg:px-9 xl:px-16">
             <img
               className="rounded-full mx-auto my-4"
               src="https://demo.themefisher.com/lifetrakr/images/team/member-four.jpg"
@@ -272,8 +272,8 @@ const Section = () => {
               MARIO GOTZE
             </h1>
             <p className="text-gray-600 mb-8">UX/UI designer</p>
-            <div className="h-2 w-80 bg-gray-200 relative rounded-full mx-auto mb-8">
-              <div className="h-2 w-[250px]  rounded-l-full transition-colors bg-softPurple ">
+            <div className="h-2 w-80 md:w-36 bg-gray-200 relative rounded-full mx-auto mb-8">
+              <div className="h-2 w-[250px] md:w-20 rounded-l-full transition-colors bg-softPurple ">
                 {" "}
               </div>
               <div className=" absolute -top-2.5 -right-10">
@@ -342,7 +342,7 @@ const Section = () => {
         </div>
       </section>
       <section className="bg-[url('https://demo.themefisher.com/lifetrakr/images/backgrounds/shape-overlay-bg.jpg')] bg-cover px-[15px] py-16">
-        <div className="text-center max-w-xs mx-auto text-white mb-20 ">
+        <div className="text-center max-w-xs lg:max-w-xl mx-auto text-white mb-20 ">
           <h1 className="text-5xl font-light mb-8">Our Happy Customers</h1>
           <p>
             Demoralized by the charms of pleasure of the moment, so blinded by
@@ -350,10 +350,10 @@ const Section = () => {
             praising
           </p>
         </div>
-        <div className="flex justify-center items-end  bg-white rounded-xl ">
-          <div className="w-80 py-[20px] px-[25px]">
-            <h1 className="text-2xl font-bold text-gray-600 mb-2">Kris lazy Cistin Miloti</h1>
-            <p className="text-gray-600 mb-2">
+        <div className="flex justify-between items-end  bg-white rounded-xl lg:max-w-xl xl:max-w-2xl mx-auto ">
+          <div className="w-80 py-[20px] px-[25px]  ">
+            <h1 className="text-2xl font-bold text-gray-600 mb-2    ">Kris lazy Cistin Miloti</h1>
+            <p className="text-gray-600 mb-2 xl:max-w-4xl">
               CEO at <span className="text-softPurple">Themefisher</span>
             </p>
             <p className="text-gray-600 leading-loose ">

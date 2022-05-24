@@ -1,6 +1,6 @@
 const NavBar = () => {
   return (
-    <nav className=" bg-softPurple px-[16px] py-[25px] sticky -top-5 left-0 shadow-lg z-10 ">
+    <nav className=" bg-softPurple px-[16px] py-4 sticky top-0 left-0 shadow-lg z-10 ">
       <div class="container flex flex-wrap justify-between items-center mx-auto  ">
         <a
           href="https://demo.themefisher.com/demos/?theme=lifetrakr"
