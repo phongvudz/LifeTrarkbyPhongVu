@@ -6,6 +6,13 @@ module.exports = {
         softPurple:"#7d71d3",
       },
     },
+    corePlugins: {
+      aspectRatio: false,
+    },
+    plugins: [
+      require('@tailwindcss/aspect-ratio'),
+      // ...
+    ],
   },
   plugins: [],
 }
